@@ -10,9 +10,9 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/storageResult"
+        android:id="@+id/searchResult"
         android:layout_width="286dp"
-        android:layout_height="161dp"
+        android:layout_height="64dp"
         android:layout_marginTop="8dp"
         android:text="info"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,20 +27,20 @@
         android:text="Search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/movieNameEditText" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/counterTextView"
         android:layout_width="96dp"
         android:layout_height="49dp"
         android:layout_marginTop="28dp"
-        android:text="SAVED?"
+        android:text="Counter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/movieNameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -49,6 +49,6 @@
         android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storageResult" />
+        app:layout_constraintTop_toBottomOf="@+id/searchResult" />
 
 </android.support.constraint.ConstraintLayout>
